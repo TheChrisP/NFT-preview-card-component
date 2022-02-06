@@ -23,6 +23,7 @@ body {
   padding: 2.4rem;
   background-color: #14253d;
   border-radius: 15px;
+  box-shadow: 0 1.2rem 2.4rem rgba(0, 0, 0, 0.15);
 }
 
 .card-img {
@@ -138,6 +139,15 @@ body {
   color: #00fff7;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
+}
+
+/* **************************/
+/* BELOW 368px (Mobile) */
+/* **************************/
+@media (max-width: 23em) {
+  .card {
+    margin: 1.2rem;
+  }
 }
 
 /* 
