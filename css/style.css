@@ -45,15 +45,13 @@ body {
 
 .hover {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 0;
   background-color: hsla(178, 100%, 50%, 0.6);
   width: 100%;
   height: calc(100% - 4px);
-  z-index: 999;
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
+  border-radius: 8px;
 }
 
 .hover:hover {
